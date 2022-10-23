@@ -39,9 +39,9 @@ Some Screenshots-
 Before you start with the tutorial make sure you have:
 
 - [Node.js](https://nodejs.org/en/) v14 or greater installed on your machine
-- [VMS-medusa-admin](https://github.com/myudak/vmsMedusa-admin) run `npm install;npm start`
-- [VMS-medusa-server](https://github.com/myudak/vmsMedusa-server) run `npm install;npm install medusa-file-minio;npm install -g @medusajs/medusa;medusa develop`
-- [VMS-minIO](https://github.com/myudak/vmsMinIO) download [minIO](https://min.io/docs/minio/windows/index.html) place it in parent directory run `cd ..;./minio.exe server "path directory" --address :6900 --console-address :9090`
+- [medusa-admin](https://github.com/myudak/vmsMedusa-admin) run `npm install;npm start`
+- [medusa-server](https://github.com/myudak/vmsMedusa-server) run `npm install;npm install medusa-file-minio;npm install -g @medusajs/medusa;medusa develop`
+- [minIO]download [minIO](https://min.io/docs/minio/windows/index.html) place it in parent directory run `cd ..;./minio.exe server "path directory" --address :6900 --console-address :9090`
 
 ### Install Project
 
