@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "medusa-file-minio": "^1.1.0"
+  }
+}
