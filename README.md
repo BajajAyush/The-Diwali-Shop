@@ -51,19 +51,23 @@ Here are the steps to be taken after that :
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/BajajAyush/The-Diwali-Shop
+git clone https://github.com/BajajAyush/The-Diwali-Shop.git
 ```
 
 2. Change directory and install dependencies:
 ```bash
+cd The-Diwali-Store
+medusa new my-medusa-store --seed
 cd my-medusa-store
-npm install
-```
-3.  Start the app
-```bash
+medusa develop
+cd ..
+cd my-store-front
 npm run dev
 ```
-
+3. Go to the medusa-admin folder start cmd
+```bash
+npm run start
+```
 4. Go to minIO page in `127.1.1:9090`:
 
 ![image](https://user-images.githubusercontent.com/69108782/194758258-2b41b42f-8b69-4ec3-96bf-30a022120064.png)
@@ -90,9 +94,16 @@ S4zwVBqo3oaFWuOfJ6MsK0HNCrLKMXei
 
 ![Untitled video - Made with Clipchamp (1)](https://user-images.githubusercontent.com/69108782/194758995-d263cf1e-d124-499c-89a3-26f6007e4eb5.gif)
 
-Finish and see the web on :
+Finished 
+
+see the store front on :
 ```
 http://localhost:8000/
+```
+
+see the admin on : 
+```
+http://localhost:7000/
 ```
 
 ## Resources
